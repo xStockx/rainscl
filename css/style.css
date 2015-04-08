@@ -1,0 +1,177 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-84qvyt');
+	src:url('../fonts/icomoon.eot?#iefix-84qvyt') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-84qvyt') format('woff'),
+		url('../fonts/icomoon.ttf?-84qvyt') format('truetype'),
+		url('../fonts/icomoon.svg?-84qvyt#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-qrcode:before {
+	content: "\e600";
+}
+
+.icon-cart:before {
+	content: "\e601";
+}
+
+.icon-envelope:before {
+	content: "\e602";
+}
+
+.icon-location:before {
+	content: "\e603";
+}
+
+.icon-thumbs-up:before {
+	content: "\e604";
+}
+
+.icon-checkmark:before {
+	content: "\e605";
+}
+
+.icon-checkmark2:before {
+	content: "\e606";
+}
+
+.icon-arrow-up:before {
+	content: "\e60b";
+}
+
+.icon-arrow-right:before {
+	content: "\e60c";
+}
+
+.icon-arrow-down:before {
+	content: "\e60d";
+}
+
+.icon-arrow-left:before {
+	content: "\e60e";
+}
+
+.icon-arrow-up2:before {
+	content: "\e60f";
+}
+
+.icon-arrow-right2:before {
+	content: "\e610";
+}
+
+.icon-arrow-down2:before {
+	content: "\e611";
+}
+
+.icon-arrow-left2:before {
+	content: "\e612";
+}
+
+.icon-googleplus:before {
+	content: "\e607";
+}
+
+.icon-facebook:before {
+	content: "\e608";
+}
+
+.icon-twitter:before {
+	content: "\e609";
+}
+
+.icon-youtube:before {
+	content: "\e60a";
+}
+
+.icon-github:before {
+	content: "\e613";
+}
+
+.icon-github2:before {
+	content: "\e614";
+}
+
+.icon-github3:before {
+	content: "\e615";
+}
+
+.icon-apple:before {
+	content: "\e616";
+}
+
+.icon-android:before {
+	content: "\e617";
+}
+
+.icon-windows:before {
+	content: "\e618";
+}
+
+.icon-windows8:before {
+	content: "\e619";
+}
+
+.icon-linkedin:before {
+	content: "\e625";
+}
+
+.icon-file-xml:before {
+	content: "\e61a";
+}
+
+.icon-file-css:before {
+	content: "\e61b";
+}
+
+.icon-html5:before {
+	content: "\e61c";
+}
+
+.icon-html52:before {
+	content: "\e61d";
+}
+
+.icon-css3:before {
+	content: "\e61e";
+}
+
+.icon-chrome:before {
+	content: "\e61f";
+}
+
+.icon-firefox:before {
+	content: "\e620";
+}
+
+.icon-IE:before {
+	content: "\e621";
+}
+
+.icon-opera:before {
+	content: "\e622";
+}
+
+.icon-safari:before {
+	content: "\e623";
+}
+
+.icon-IcoMoon:before {
+	content: "\e624";
+}
+

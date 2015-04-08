@@ -1,0 +1,151 @@
+body {
+  font-family: 'Open Sans', Arial;
+}
+section {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+section article {
+  width: 100%;
+  height: 700px;
+}
+nav {
+  position: fixed;
+  text-align: left;
+  padding-top: 20%;
+}
+nav p {
+  color: #ddd;
+  margin: 0;
+  margin-right: 20%;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  color: #666;
+}
+nav ul li:hover {
+  cursor: pointer;
+}
+#inicio {
+  text-align: center;
+}
+#inicio h1 {
+  color: #666;
+  padding-top: 17%;
+  font-size: 64px;
+  margin-top: 0;
+  font-family: 'Shadows Into Light';
+}
+#inicio div {
+  display: inline-block;
+}
+#inicio .arrow-down {
+  color: #666;
+  font-size: 32px;
+  margin-top: 100px;
+}
+#paginasDesarrolladas {
+  text-align: center;
+}
+#paginasDesarrolladas .arrow {
+  padding-top: 20px;
+  font-size: 32px;
+  color: #666;
+}
+#paginasDesarrolladas .row-web {
+  padding-top: 30px;
+  height: 250px;
+}
+#paginasDesarrolladas .row-web .item-web {
+  margin: 10px;
+  color: #666;
+  display: inline-block;
+  border-bottom: 2px #3cbbff solid;
+  height: 200px;
+  width: 180px;
+  border-radius: 0 0 0 0;
+  margin-right: 10px;
+}
+#paginasDesarrolladas .row-web .item-web img {
+  width: 170px;
+}
+#paginasDesarrolladas .row-web .item-web p {
+  margin-top: -10px;
+}
+#paginasDesarrolladas .row-web .item-web:hover {
+  cursor: pointer;
+  border-bottom: 10px #fa0 solid;
+  transition: 0.3s;
+}
+#paginasDesarrolladas h1 {
+  color: #666;
+}
+#hablemos {
+  text-align: center;
+}
+#hablemos div {
+  margin-top: 10%;
+  display: inline-block;
+  vertical-align: middle;
+}
+#hablemos #formulario {
+  text-align: left;
+  width: 400px;
+  color: #666;
+}
+#hablemos #formulario label,
+#hablemos #formulario button {
+  display: block;
+  font-size: 20px;
+  font-family: 'Shadows Into Light';
+}
+#hablemos #formulario input {
+  font-size: 20px;
+  font-family: 'Shadows Into Light';
+  transition: 0.3s;
+  background: #ddd;
+}
+#hablemos #formulario input:focus {
+  color: #fff;
+  background: #3cbbff;
+  transition: 0.3s;
+}
+#hablemos #formulario textarea {
+  font-size: 20px;
+  font-family: 'Shadows Into Light';
+  transition: 0.3s;
+  border-radius: 0 0 20px 0px;
+  background: #ddd;
+}
+#hablemos #formulario textarea:focus {
+  color: #fff;
+  background: #3cbbff;
+  transition: 0.3s;
+}
+footer {
+  background: #ddd;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  font-size: 12px;
+}
+.sociales-grandes {
+  color: #3cbbff;
+  font-size: 128px;
+  margin: 0 30px 0 0;
+  transition: 0.3s;
+}
+.sociales-grandes:hover {
+  transition: 0.3s;
+  color: #fa0;
+  font-size: 128px;
+  cursor: pointer;
+  margin: 0 30px 0 0;
+}

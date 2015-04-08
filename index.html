@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Javier Rain S</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/estilo.css">
+	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light|Open+Sans' rel='stylesheet' type='text/css'>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/animatescroll.min.js"></script>
+	<script>
+
+	$(document).ready(function(){
+		$('#liInicio').on("click",function(){
+			$('#inicio').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});
+		});
+		$('#liTrabajos').on("click",function(){
+			$('#paginasDesarrolladas').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});
+		});
+		$('#liHablemos').on("click",function(){
+			$('#hablemos').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});
+		});
+		$('#liInicio').mouseover(function(){
+			$('#liInicio').css('color','#3CBBFF');
+			$('#liInicio').html('▶');
+		});
+		$('#liInicio').mouseout(function(){
+			$('#liInicio').css('color','#666');
+			$('#liInicio').html('■');
+		});
+		$('#liTrabajos').mouseover(function(){
+			$('#liTrabajos').css('color','#3CBBFF');
+			$('#liTrabajos').html('▶');
+		});
+		$('#liTrabajos').mouseout(function(){
+			$('#liTrabajos').css('color','#666');
+			$('#liTrabajos').html('■');
+		});
+
+		$('#liHablemos').mouseover(function(){
+			$('#liHablemos').css('color','#3CBBFF');
+			$('#liHablemos').html('▶');
+		});
+		$('#liHablemos').mouseout(function(){
+			$('#liHablemos').css('color','#666');
+			$('#liHablemos').html('■');
+		});
+
+
+
+		$('#inicio').on("mouseover",function(){
+			$('#liInicio').css('color','#3CBBFF');
+			$('#liInicio').html('▶');
+		});
+
+		$('#inicio').on("mouseout",function(){
+			$('#liInicio').css('color','#666');
+			$('#liInicio').html('■');
+		});
+		$('#paginasDesarrolladas').on("mouseover",function(){
+			$('#liTrabajos').css('color','#3CBBFF');
+			$('#liTrabajos').html('▶');
+		});
+		$('#paginasDesarrolladas').on("mouseout",function(){
+			$('#liTrabajos').css('color','#666');
+			$('#liTrabajos').html('■');
+		});
+		$('#hablemos').on("mouseover",function(){
+			$('#liHablemos').css('color','#3CBBFF');
+			$('#liHablemos').html('▶');
+		});
+		$('#hablemos').on("mouseout",function(){
+			$('#liHablemos').css('color','#666');
+			$('#liHablemos').html('■');
+		});
+		$('.icon-facebook').on('click',function(){ window.location.replace("http://www.facebook.com/xstockx"); });
+		$('.icon-twitter').on('click',function(){ window.location.replace("http://www.twitter.com/i_stock"); });
+		$('.icon-linkedin').on('click',function(){ window.location.replace("https://www.linkedin.com/in/javierrain"); });
+	});
+
+		
+
+	</script>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li id="liInicio">■</li>
+			<li id="liTrabajos">■</li>
+			<li id="liHablemos">■</li>
+		</ul>
+	</nav>
+	<section>
+		<article id="inicio">
+			<h1>Rains.cl</h1>
+			<div id="sociales">
+				<div class="icon-facebook  sociales-grandes"></div>
+				<div class="icon-twitter sociales-grandes"></div>
+				<div class="icon-linkedin sociales-grandes"></div>
+			</div>
+			
+		</article>
+		<article id="paginasDesarrolladas">
+			
+			<div class="row-web first">
+				<div class="item-web">
+					<img src="images/mvrb.png" alt="mvrb">
+					<p>www.mvrb.cl</p>
+				</div>
+				<div class="item-web">
+					<img src="images/mymcg.png" alt="mvrb">
+					<p>www.mymcg.cl</p>
+				</div>
+			</div>
+			<div class="row-web second">
+				<div class="item-web">
+					<img src="images/arcoiris.png" alt="mvrb">
+					<p>www.arcoirisdos.cl</p>
+				</div>
+				<div class="item-web">
+					<img src="images/nexoit.png" alt="mvrb">
+					<p>www.nexo-it.cl</p>
+				</div>
+				<div class="item-web">
+					<img src="images/adlhconsultores.png" alt="mvrb">
+					<p>www.adlhconsultores.cl</p>
+				</div>
+				<div class="item-web">
+					<img src="images/entraenlaweb.png" alt="mvrb">
+					<p>www.entraenlaweb.cl</p>
+				</div>
+			</div>
+			<div>
+				<h1>Sitios web desarrollados</h1>
+			</div>
+			
+
+		</article>
+		<article id="hablemos">
+			<div id="sociales">
+				<div class="icon-facebook  sociales-grandes"></div>
+				<div class="icon-twitter sociales-grandes"></div>
+				<div class="icon-linkedin sociales-grandes"></div>
+			</div>
+			<div id="formulario">
+				<label for="nombre">Nombre</label>
+				<input type="text" name="nombre" id="nombre">
+				<label for="mail">E-mail</label>
+				<input type="text" name="mail" id="mail">
+				<label for="mensaje">Mensaje</label>
+				<textarea name="mensaje" id="mensaje" cols="48" rows="8"></textarea>
+				<button> Enviar </button>
+			</div>
+		</article>
+	</section>
+	<footer>
+		<p>Derechos reservados</p>
+	</footer>
+</body>
+</html>
