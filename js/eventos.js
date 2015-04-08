@@ -102,6 +102,7 @@ function enviarFormulario()
 
 		},
 		error : function(){
+				$('#respuesta').addClass('animated flipInY');
 				$('#respuesta').html('Presentamos un problema en nuestro servidor , prueba en 5 minutos - Por favor');
 		}
 
