@@ -1,8 +1,8 @@
 body 
-	font-family 'Open Sans', Arial
+	font-family 'Shadows Into Light', Arial
 	
 section
-	width 100%
+	width 1024px
 	margin-right auto
 	margin-left auto
 	article
@@ -26,14 +26,13 @@ nav
 			cursor pointer
 
 #inicio
-	//background #1B66FF
 	text-align center
 	h1
 		color #666
-		padding-top 17	%
+		padding-top 17%
 		font-size 64px
 		margin-top 0
-		font-family 'Shadows Into Light',Arial
+		font-family 'Shadows Into Light', Arial
 	div
 		display inline-block
 	.arrow-down
@@ -41,11 +40,10 @@ nav
 		font-size 32px
 		margin-top 100px
 #paginasDesarrolladas
-	//background #fa0
 	text-align center
 	
 	.arrow
-		//display none
+		
 		padding-top 20px
 		font-size 32px
 		color #666
@@ -54,6 +52,7 @@ nav
 		padding-top 30px
 		height 250px
 		.item-web
+			font-family 'Open Sans', Arial
 			margin 10px
 			color #666
 			display inline-block
@@ -62,6 +61,8 @@ nav
 			width 180px
 			border-radius 0 0 0 0
 			margin-right 10px
+			opacity .7
+			transition 0.5s
 			img 
 				width 170px
 			p
@@ -69,7 +70,8 @@ nav
 		.item-web:hover
 			cursor pointer
 			border-bottom 10px #fa0 solid
-			transition 0.3s
+			transition 0.5s
+			opacity 1
 			
 	h1 
 		color #666
@@ -78,8 +80,8 @@ nav
 #hablemos
 	text-align center
 	
-	div
-		margin-top 10%
+	.div-hab
+		margin-top 5%
 		display inline-block
 		vertical-align middle
 	#formulario
@@ -89,19 +91,20 @@ nav
 		label,button
 			display block
 			font-size 20px
-			font-family 'Shadows Into Light',Arial
+			font-family 'Shadows Into Light', Arial
 		input
 			font-size 20px
-			font-family 'Shadows Into Light',Arial
+			font-family 'Shadows Into Light', Arial
 			transition 0.3s
 			background #ddd
+			border-radius 0 0 10px 0px
 		input:focus
 			color white
 			background #3CBBFF	
 			transition 0.3s
 		textarea
 			font-size 20px
-			font-family 'Shadows Into Light',Arial
+			font-family 'Shadows Into Light', Arial
 			transition 0.3s
 			border-radius 0 0 20px 0px
 			background #ddd
@@ -109,6 +112,11 @@ nav
 			color white
 			background #3CBBFF	
 			transition 0.3s
+		button 
+			font-size 24px
+			background #3CBBFF
+			border-radius 5px
+			color #fff
 footer
 	background #ddd
 	width 100%
@@ -118,7 +126,19 @@ footer
 	p 
 		margin 0
 		font-size 12px
-	
+
+#sociales span
+	color #3CBBFF	
+
+#sociales p 
+	font-size 64px
+#sociales div
+	display inline-block
+#respuesta
+	text-align left
+	margin-left 560px
+	margin-top 10px
+	font-size 24px
 .sociales-grandes
 	color #3CBBFF
 	font-size 128px	
